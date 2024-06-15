@@ -12,6 +12,7 @@ public class LoginController {
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
 
+	// login 요청 - giuk-kim2 협력자
 	@GetMapping(value={"/login"})
 	public String showLoginPage() {
 		return "loginForm";
